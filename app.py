@@ -10,4 +10,8 @@ if __name__ == '__main__':
     
 @app.route('/dashboard')
 def dashboard():
-    return "Dashboard API"
+    return "Updated Dashboard API"
+
+@app.route('/login')
+def login():
+    return "Login API"
